@@ -1,11 +1,11 @@
-import styled from 'styled-components'
-import { Link as LinkRouter} from 'react-router-dom'
-import { Link as LinkScroll} from 'react-router-dom'
+import styled from 'styled-components';
+import { Link as LinkRouter} from 'react-router-dom';
+import { Link as LinkScroll} from 'react-router-dom';
 
 export const Nav = styled.nav`
     background: #000;
     height: 80px;
-    // margin-top: -80px;
+    margin-top: -80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@ export const Nav = styled.nav`
     @media screen and (max-width: 960px){
         transition: 0.8s all ease;
     }
-`
+`;
 
 export const NavbarContainer = styled.div`
     display: flex;
@@ -28,7 +28,6 @@ export const NavbarContainer = styled.div`
     max-width: 1110px;
     z-index: 1;
 `
-
 export const NavLogo = styled(LinkRouter)`
     color: #fff;
     justify-self: flex-start;
@@ -36,7 +35,7 @@ export const NavLogo = styled(LinkRouter)`
     font-size: 1.5rem;
     display: flex;
     align-items: center;
-    margin-left: 10px;
+    margin-left: 24px;
     font-weight: bold;
     text-decoration: none;
 `
@@ -46,10 +45,10 @@ export const MobileIcon = styled.div`
 
     @media screen and (max-width:768px){
         color: #fff;
-        display:block;
+        display: block;
         position: absolute;
         top: 0;
-        right:0;
+        right: 0;
         transform: translate(-100%, 60%);
         font-size: 1.8rem;
         cursor: pointer;
@@ -59,17 +58,17 @@ export const MobileIcon = styled.div`
 export const NavMenu = styled.ul`
     display:flex;
     align-items: cneter;
-    list-style:none;
+    list-style: none;
     text-align: center;
-    margin-right: -2p2px;
+    margin-right: -22px;
 
     @media screen and (max-width: 768px){
-        display:none;
+        display: none;
     }
 `
 
 export const Navitem = styled.li`
-    height: 8-px;
+    height: 80px;
 `
 
 export const NavLinks = styled(LinkScroll)`
@@ -89,7 +88,7 @@ export const NavButton = styled.nav`
     display: flex;
     align-items: center;
 
-    @media screen and (max-width: 760px){
+    @media screen and (max-width: 768px){
         display: none;
     }
 `
@@ -99,12 +98,13 @@ export const NavButtonlink = styled(LinkRouter)`
     white-space: nowrap;
     padding: 10px 22px;
     color: #2bfcda;
-    font-szie:16px;
+    font-size: 16px;
+    outline: none;
+    border: none;
     cursor: pointer
     transition: all 0.2s ease-in-out;
     text-decorations: none;
 
-    
     &:hover {
         transition: all 0.2s ease-in-out;
         background: #02473c;
