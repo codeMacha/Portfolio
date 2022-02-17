@@ -9,9 +9,6 @@ export const HeroContainer = styled.div`
     height: 800px;
     position: relative;
     z-index: 1
-
-    // Add :before Styles
-
 `
 
 export const HeroBg = styled.div`
@@ -38,14 +35,16 @@ export const HeroContent = styled.div`
     max-width: 1200px;
     position:absolute;
     display: flex;
-    flex-direction: colum;
-    align-items: center;
+    flex-direction: column;
+    align-items: justify;
+
 `
 
 export const HeroH1 = styled.h1`
     color: #fff;
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
+    
 
     @media screen and (max-width: 760px){
         font-size: 35px;
@@ -75,13 +74,13 @@ export const HeroP = styled.p`
     font-size: 24px;
     text-align: center;
     vertical-align: middle;
-    max-widht: 600px;
+    max-widht: 400px;
 
-    @media screen and (max-width: 760px){
+    @media screen and (max-width: 500px){
         font-size: 24px;
     }
 
-    @media screen and (max-width: 480px){
+    @media screen and (max-width: 380px){
         font-size: 18px;
     }
 `
