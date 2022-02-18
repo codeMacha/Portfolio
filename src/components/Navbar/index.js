@@ -44,7 +44,7 @@ const Navbar = ({toggle}) => {
           </MobileIcon>
           <NavMenu>
             <Navitem>
-              <NavLinks to="about" smooth={true} duration={500} >About</NavLinks>
+              <NavLinks to="about" smooth={true} duration={1000} >About</NavLinks>
             </Navitem>
             <Navitem>
               <NavLinks to="experience">Experience</NavLinks>

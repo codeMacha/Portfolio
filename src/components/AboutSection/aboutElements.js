@@ -28,7 +28,7 @@ export const Aboutp1 = styled.p`
     color: #fff;
     font-size: 25px;
     position: absolute;
-    top: 18%;
+    top: 10%;
     left: 8%;
     width: 450px;
     border: 3px solid #73AD21;

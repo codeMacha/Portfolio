@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import DayNightToggle from "react-day-and-night-toggle";
 
 import {
   AboutContainer,
@@ -48,17 +47,7 @@ const AboutSection = () => {
               certification.
           </Aboutp2>
         </AboutContent>
-        <AboutToggle>
-        <DayNightToggle
-          size={65}
-          onChange={() => toggle()}
-          checked={isDarkMode}
-        />
-        </AboutToggle>
-        
-        
       </AboutContainer>
-      
     </>
   );
 };
