@@ -47,7 +47,7 @@ const Navbar = ({toggle}) => {
               <NavLinks to="about" smooth={true} duration={1000} >About</NavLinks>
             </Navitem>
             <Navitem>
-              <NavLinks to="experience">Experience</NavLinks>
+              <NavLinks to="experience" smooth={true} duration={1000} >Projects</NavLinks>
             </Navitem>
             <Navitem>
               <NavLinks to="Work">Work</NavLinks>

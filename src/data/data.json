@@ -1,5 +1,13 @@
-{
-    "name":"Pasang Sherpa",
-    "profession": "FullStack Web Developer",
-    "intro":"Driven and passionate in developing beautiful web applications that is helping in solving business problems all around. I am currently training under the Cognixia Jump Start Program to take that next step towards my future progress."
-}
+
+[
+    {
+        "name":"Pizza Server App",
+        "description": "it is a web application for pizzeria, where a customer can make orders and see the details of their order, an employee can see the list of orders and process them accordingly"
+    
+    },
+
+    {
+        "name": ""
+    }
+
+]
