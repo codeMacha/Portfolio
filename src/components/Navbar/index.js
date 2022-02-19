@@ -18,7 +18,7 @@ const Navbar = ({toggle}) => {
   const [scrollNav, setScrollNav] = useState(false)
 
   const changeNav = () => {
-    if (window.scrollY >= 80){
+    if(window.scrollY >= 80){
       setScrollNav(true)
     }else{
       setScrollNav(false)
@@ -36,7 +36,7 @@ const Navbar = ({toggle}) => {
 
   return (
     <>
-      <Nav setScrollNav={scrollNav}>
+      <Nav scrollNav={scrollNav}>
         <NavbarContainer>
           <NavLogo to='/' onClick={scrollHome}>Home</NavLogo>
           <MobileIcon onClick={toggle}>
@@ -53,7 +53,7 @@ const Navbar = ({toggle}) => {
               <NavLinks to="Work">Work</NavLinks>
             </Navitem>
             <Navitem>
-              <NavLinks to="Contact">Contact</NavLinks>
+              <NavLinks to="contact" smooth={true} duration={1000} >Contact</NavLinks>
             </Navitem>
           </NavMenu>
           <NavButton>

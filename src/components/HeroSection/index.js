@@ -1,7 +1,7 @@
 import React from 'react'
 import Video from '../../videos/video.mp4'
 import SocialMedia from '../SocialMedia/SocialMedia';
-//import { Link } from "react-scroll";
+
 import {
     HeroContainer,
     HeroBg,

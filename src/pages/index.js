@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import AboutSection from '../components/AboutSection'
+import ContactForm from '../components/Contact/ContactForm'
 import Experience from '../components/Experience/Experience'
 import HeroSection from '../components/HeroSection'
 import Navbar from '../components/Navbar'
@@ -20,6 +21,7 @@ const Home = () => {
         <HeroSection />
         <AboutSection />
         <Experience />
+        <ContactForm />
     </>
   )
 }

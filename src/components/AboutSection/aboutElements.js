@@ -54,9 +54,9 @@ export const Aboutp2 = styled.p`
     color: #fff;
     font-size: 25px;
     position: absolute;
-    right: 15%;
+    right: 10%;
     width: 550px;
-    bottom: 10px;
+    bottom: 8px;
     border: 3px solid #73AD21;
     padding: 10px;
     text-align: center;

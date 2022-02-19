@@ -15,6 +15,7 @@ const AboutSection = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
   const [isActive, setActive] = useState("false");
 
+  // doesnt work needs more time
   function toggle() {
     setActive(!isActive);
     setIsDarkMode(!isDarkMode);

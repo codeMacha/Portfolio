@@ -9,7 +9,7 @@ export const ProjectContainer = styled.div`
 `;
 
 export const ProjectHeader = styled.h1`
-  color: #2f4f4f;
+  color: #3295a8;
   font-size: 50px;
   text-align: center;
 `;
