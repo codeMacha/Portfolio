@@ -1,6 +1,6 @@
 # Getting Started with React Portfolio App
 
-# A basic portfolio web app using react libraries and various other libraries:
+# A basic portfolio web app using react other libraries:
   1: Boot-Strap
   2: Styled-Components
   3: SemanticUI
