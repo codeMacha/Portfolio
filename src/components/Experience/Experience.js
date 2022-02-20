@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Button, Card, Image } from "semantic-ui-react";
 import "semantic-ui-css/semantic.min.css";
 import DayNightToggle from "react-day-and-night-toggle";
-import { ProjectContainer, ProjectHeader , Projectdiv} from "./ExperienceElement";
+import { ProjectContainer, ProjectHeader , Carddiv} from "./ExperienceElement";
 
 class Experience extends Component {
 
@@ -69,13 +69,13 @@ class Experience extends Component {
   render() {
     return (
       <ProjectContainer id="experience">
-       <br />
-       <br />
-        <ProjectHeader>Projects</ProjectHeader>
+          <ProjectHeader>Projects</ProjectHeader>
+        <Carddiv>
         <Card.Group
           centered
           style={{ margin: "250px 100px 100px 100px" }}
         >{this.projectList}</Card.Group>
+        </Carddiv>
       </ProjectContainer>
     );
   }

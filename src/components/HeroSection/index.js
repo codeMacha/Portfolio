@@ -19,7 +19,7 @@ const HeroSection = () => {
             <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
         </HeroBg>
         <HeroContent>
-            <HeroH1 className="text-3xl text-neongreen font-fira">Hello!</HeroH1>
+            <HeroH1 >Hello!</HeroH1>
             <HeroH2>My name is Pasang Sherpa</HeroH2>
             <HeroP >
                 I am a Full-stack Software developer with

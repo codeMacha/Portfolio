@@ -31,7 +31,7 @@ function FormExampleSubcomponentControl(props) {
     <ContactContainer id="contact">
       <ContactSection>
         <h1>Contact</h1>
-        <Form style={{ margin: "100px 100px 100px 100px" }}>
+        <Form >
           <Form.Group widths="equal">
             <Form.Input fluid label="First name" placeholder="First name" />
             <Form.Input fluid label="Last name" placeholder="Last name" />
@@ -49,3 +49,6 @@ function FormExampleSubcomponentControl(props) {
 }
 
 export default FormExampleSubcomponentControl;
+
+
+//style={{ margin: "100px 100px 100px 100px" }}

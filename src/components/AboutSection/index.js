@@ -24,7 +24,6 @@ const AboutSection = () => {
   return (
     <>
       <AboutContainer id='about' className={isActive ? "daytime" : "App-header"}>
-        {/* <Imagebg src={Image} type="image/svg"></Imagebg> */}
         <AboutContent>
           <AboutTitle>About Me</AboutTitle>
           <Aboutp1>
@@ -47,7 +46,7 @@ const AboutSection = () => {
               in swimming competitions. I have a lifeguard and a swim instructor 
               certification.
           </Aboutp2>
-        </AboutContent>
+          </AboutContent>
       </AboutContainer>
     </>
   );
